@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Ticket - TicketEase</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>TicketEase</h1>
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="book.html">Book a Ticket</a>
+        </nav>
+    </header>
+    <h2>Book a Ticket</h2>
+    <form>
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" required>
+
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" required>
+
+        <label for="date">Date of Travel:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="passengers">Number of Passengers:</label>
+        <input type="number" id="passengers" name="passengers" min="1" required>
+
+        <button type="submit">Book Now</button>
+    </form>
+    <footer>
+        <p>&copy; 2025 TicketEase. All rights reserved.</p>
+    </footer>
+    <script src="./script/scripts.js"></script>
+</body>
+</html>
